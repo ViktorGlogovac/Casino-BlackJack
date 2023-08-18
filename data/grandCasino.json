@@ -1,0 +1,37 @@
+{
+    "name": "Grand Casino",
+    "Accounts": [
+        {
+            "wins": 2,
+            "password": "pass",
+            "wallet": 8490,
+            "draws": 2,
+            "losses": 5,
+            "username": "viktor"
+        },
+        {
+            "wins": 0,
+            "password": "pass123",
+            "wallet": 300,
+            "draws": 0,
+            "losses": 3,
+            "username": "viktor"
+        },
+        {
+            "wins": 5,
+            "password": "password",
+            "wallet": 7800,
+            "draws": 0,
+            "losses": 12,
+            "username": "user"
+        },
+        {
+            "wins": 1,
+            "password": "pass1",
+            "wallet": 500,
+            "draws": 0,
+            "losses": 2,
+            "username": "user1"
+        }
+    ]
+}

@@ -1,0 +1,905 @@
+Index: data/grandCasino.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/grandCasino.json b/data/grandCasino.json
+new file mode 100644
+--- /dev/null	(date 1691642003386)
++++ b/data/grandCasino.json	(date 1691642003386)
+@@ -0,0 +1,11 @@
++{
++    "name": "Grand Casino",
++    "Accounts": [{
++        "wins": 0,
++        "password": "pass",
++        "wallet": 0,
++        "draws": 0,
++        "losses": 0,
++        "username": "user"
++    }]
++}
+\ No newline at end of file
+Index: .idea/shelf/Changes2/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Changes2/shelved.patch b/.idea/shelf/Changes2/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1691641912715)
++++ b/.idea/shelf/Changes2/shelved.patch	(date 1691641912715)
+@@ -0,0 +1,873 @@
++Index: .idea/shelf/Changes1/shelved.patch
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/shelf/Changes1/shelved.patch b/.idea/shelf/Changes1/shelved.patch
++new file mode 100644
++--- /dev/null	(date 1691641758262)
+++++ b/.idea/shelf/Changes1/shelved.patch	(date 1691641758262)
++@@ -0,0 +1,518 @@
+++Index: .idea/shelf/Changes/shelved.patch
+++IDEA additional info:
+++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+++<+>UTF-8
+++===================================================================
+++diff --git a/.idea/shelf/Changes/shelved.patch b/.idea/shelf/Changes/shelved.patch
+++new file mode 100644
+++--- /dev/null	(date 1691641480923)
++++++ b/.idea/shelf/Changes/shelved.patch	(date 1691641480923)
+++@@ -0,0 +1,163 @@
++++Index: data/testFile.json
++++IDEA additional info:
++++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++++<+>UTF-8
++++===================================================================
++++diff --git a/data/testFile.json b/data/testFile.json
++++new file mode 100644
++++--- /dev/null	(date 1690355258002)
+++++++ b/data/testFile.json	(date 1690355258002)
++++@@ -0,0 +1,1 @@
+++++{"Accounts": []}
++++\ No newline at end of file
++++Index: .idea/artifacts/Project_Starter_jar.xml
++++IDEA additional info:
++++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++++<+>UTF-8
++++===================================================================
++++diff --git a/.idea/artifacts/Project_Starter_jar.xml b/.idea/artifacts/Project_Starter_jar.xml
++++new file mode 100644
++++--- /dev/null	(date 1691285373546)
+++++++ b/.idea/artifacts/Project_Starter_jar.xml	(date 1691285373546)
++++@@ -0,0 +1,11 @@
+++++<component name="ArtifactManager">
+++++  <artifact type="jar" name="Project-Starter:jar">
+++++    <output-path>$PROJECT_DIR$/out/artifacts/Project_Starter_jar</output-path>
+++++    <root id="archive" name="Project-Starter.jar">
+++++      <element id="module-output" name="Project-Starter" />
+++++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/junit/junit/4.13.1/junit-4.13.1.jar" path-in-jar="/" />
+++++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" path-in-jar="/" />
+++++      <element id="extracted-dir" path="$PROJECT_DIR$/lib/spec/json-20210307.jar" path-in-jar="/" />
+++++    </root>
+++++  </artifact>
+++++</component>
++++\ No newline at end of file
++++Index: data/testWriterGeneralAccountsManager.json
++++IDEA additional info:
++++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++++<+>UTF-8
++++===================================================================
++++diff --git a/data/testWriterGeneralAccountsManager.json b/data/testWriterGeneralAccountsManager.json
++++new file mode 100644
++++--- /dev/null	(date 1691641171168)
+++++++ b/data/testWriterGeneralAccountsManager.json	(date 1691641171168)
++++@@ -0,0 +1,29 @@
+++++{
+++++    "name": "My Casino",
+++++    "Accounts": [
+++++        {
+++++            "wins": 1,
+++++            "password": "password1",
+++++            "wallet": 1,
+++++            "draws": 2,
+++++            "losses": 3,
+++++            "username": "user1"
+++++        },
+++++        {
+++++            "wins": 4,
+++++            "password": "password2",
+++++            "wallet": 2,
+++++            "draws": 5,
+++++            "losses": 6,
+++++            "username": "user2"
+++++        },
+++++        {
+++++            "wins": 7,
+++++            "password": "password3",
+++++            "wallet": 3,
+++++            "draws": 8,
+++++            "losses": 9,
+++++            "username": "user3"
+++++        }
+++++    ]
+++++}
++++\ No newline at end of file
++++Index: data/grandCasino.json
++++IDEA additional info:
++++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++++<+>UTF-8
++++===================================================================
++++diff --git a/data/grandCasino.json b/data/grandCasino.json
++++new file mode 100644
++++--- /dev/null	(date 1691641200463)
+++++++ b/data/grandCasino.json	(date 1691641200463)
++++@@ -0,0 +1,37 @@
+++++{
+++++    "name": "Grand Casino",
+++++    "Accounts": [
+++++        {
+++++            "wins": 1,
+++++            "password": "pass",
+++++            "wallet": 3990,
+++++            "draws": 1,
+++++            "losses": 3,
+++++            "username": "viktor"
+++++        },
+++++        {
+++++            "wins": 0,
+++++            "password": "pass123",
+++++            "wallet": 300,
+++++            "draws": 0,
+++++            "losses": 3,
+++++            "username": "viktor"
+++++        },
+++++        {
+++++            "wins": 2,
+++++            "password": "password",
+++++            "wallet": 2800,
+++++            "draws": 0,
+++++            "losses": 8,
+++++            "username": "user"
+++++        },
+++++        {
+++++            "wins": 0,
+++++            "password": "pass",
+++++            "wallet": 0,
+++++            "draws": 0,
+++++            "losses": 0,
+++++            "username": "dorian"
+++++        }
+++++    ]
+++++}
++++\ No newline at end of file
++++Index: src/main/META-INF/MANIFEST.MF
++++IDEA additional info:
++++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++++<+>UTF-8
++++===================================================================
++++diff --git a/src/main/META-INF/MANIFEST.MF b/src/main/META-INF/MANIFEST.MF
++++new file mode 100644
++++--- /dev/null	(date 1691285355209)
+++++++ b/src/main/META-INF/MANIFEST.MF	(date 1691285355209)
++++@@ -0,0 +1,3 @@
+++++Manifest-Version: 1.0
+++++Main-Class: ui.Main
+++++
++++Index: out/production/Project-Starter/META-INF/MANIFEST.MF
++++IDEA additional info:
++++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++++<+>UTF-8
++++===================================================================
++++diff --git a/out/production/Project-Starter/META-INF/MANIFEST.MF b/out/production/Project-Starter/META-INF/MANIFEST.MF
++++new file mode 100644
++++--- /dev/null	(date 1691285395488)
+++++++ b/out/production/Project-Starter/META-INF/MANIFEST.MF	(date 1691285395488)
++++@@ -0,0 +1,3 @@
+++++Manifest-Version: 1.0
+++++Main-Class: ui.Main
+++++
++++Index: data/testWriterEmptyCasino.json
++++IDEA additional info:
++++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++++<+>UTF-8
++++===================================================================
++++diff --git a/data/testWriterEmptyCasino.json b/data/testWriterEmptyCasino.json
++++new file mode 100644
++++--- /dev/null	(date 1691641171162)
+++++++ b/data/testWriterEmptyCasino.json	(date 1691641171162)
++++@@ -0,0 +1,4 @@
+++++{
+++++    "name": "Casino",
+++++    "Accounts": []
+++++}
++++\ No newline at end of file
+++Index: .idea/shelf/Changes.xml
+++IDEA additional info:
+++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+++<+>UTF-8
+++===================================================================
+++diff --git a/.idea/shelf/Changes.xml b/.idea/shelf/Changes.xml
+++new file mode 100644
+++--- /dev/null	(date 1691641486525)
++++++ b/.idea/shelf/Changes.xml	(date 1691641486525)
+++@@ -0,0 +1,334 @@
++++<changelist name="Changes" date="1691641480924" recycled="false">
++++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" />
++++  <option name="DESCRIPTION" value="Changes" />
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ace_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ace_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ace_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ace_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ace_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ace_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ace_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ace_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/aces.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/aces.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/back_cards-07.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/back_cards-07.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/blue_back.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/blue_back.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="out/test/Project-Starter/classpath.index" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/classpath.index" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Eight_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Eight_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Eight_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Eight_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Eight_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Eight_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Eight_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Eight_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Five_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Five_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Five_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Five_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Five_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Five_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Five_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Five_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Four_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Four_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Four_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Four_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Four_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Four_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Four_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Four_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Gray_back.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Gray_back.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Green_back.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Green_back.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/honor_clubs.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/honor_clubs.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/honor_diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/honor_diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/honor_heart-14.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/honor_heart-14.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/honor_spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/honor_spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Jack_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Jack_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Jack_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Jack_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Jack_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Jack_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Jack_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Jack_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/King_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/King_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/King_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/King_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/King_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/King_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/King_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/King_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Nine_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Nine_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Nine_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Nine_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Nine_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Nine_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Nine_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Nine_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="out/artifacts/Project_Starter_jar/Project-Starter.jar" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Project-Starter.jar" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/purple_back.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/purple_back.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Queen_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Queen_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Queen_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Queen_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Queen_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Queen_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Queen_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Queen_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Red_back.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Red_back.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Seven_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Seven_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Seven_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Seven_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Seven_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Seven_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Seven_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Seven_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Six_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Six_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Six_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Six_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Six_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Six_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Six_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Six_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ten_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ten_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ten_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ten_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ten_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ten_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Ten_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Ten_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Three_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Three_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Three_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Three_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Three_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Three_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Three_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Three_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Two_Club.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Two_Club.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Two_Diamond.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Two_Diamond.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Two_Heart.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Two_Heart.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Two_Spade.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Two_Spade.png" />
++++  </binary>
++++  <binary>
++++    <option name="BEFORE_PATH" />
++++    <option name="AFTER_PATH" value="CardsCollection/Yellow_back.png" />
++++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Yellow_back.png" />
++++  </binary>
++++</changelist>
+++\ No newline at end of file
++Index: .idea/shelf/Changes1.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/shelf/Changes1.xml b/.idea/shelf/Changes1.xml
++new file mode 100644
++--- /dev/null	(date 1691641769628)
+++++ b/.idea/shelf/Changes1.xml	(date 1691641769628)
++@@ -0,0 +1,334 @@
+++<changelist name="Changes1" date="1691641758263" recycled="false">
+++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" />
+++  <option name="DESCRIPTION" value="Changes" />
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ace_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ace_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ace_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ace_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ace_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ace_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ace_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ace_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/aces.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/aces.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/back_cards-07.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/back_cards-07.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/blue_back.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/blue_back.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/classpath.index" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/classpath.index" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Eight_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Eight_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Eight_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Eight_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Eight_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Eight_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Eight_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Eight_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Five_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Five_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Five_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Five_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Five_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Five_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Five_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Five_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Four_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Four_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Four_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Four_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Four_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Four_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Four_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Four_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Gray_back.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Gray_back.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Green_back.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Green_back.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/honor_clubs.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/honor_clubs.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/honor_diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/honor_diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/honor_heart-14.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/honor_heart-14.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/honor_spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/honor_spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Jack_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Jack_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Jack_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Jack_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Jack_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Jack_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Jack_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Jack_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/King_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/King_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/King_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/King_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/King_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/King_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/King_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/King_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Nine_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Nine_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Nine_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Nine_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Nine_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Nine_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Nine_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Nine_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Project-Starter.jar" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Project-Starter.jar" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/purple_back.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/purple_back.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Queen_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Queen_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Queen_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Queen_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Queen_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Queen_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Queen_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Queen_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Red_back.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Red_back.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Seven_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Seven_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Seven_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Seven_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Seven_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Seven_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Seven_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Seven_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Six_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Six_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Six_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Six_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Six_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Six_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Six_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Six_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ten_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ten_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ten_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ten_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ten_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ten_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Ten_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Ten_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Three_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Three_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Three_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Three_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Three_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Three_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Three_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Three_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Two_Club.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Two_Club.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Two_Diamond.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Two_Diamond.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Two_Heart.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Two_Heart.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Two_Spade.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Two_Spade.png" />
+++  </binary>
+++  <binary>
+++    <option name="BEFORE_PATH" />
+++    <option name="AFTER_PATH" value=".idea/shelf/Changes/Yellow_back.png" />
+++    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/Yellow_back.png" />
+++  </binary>
+++</changelist>
++\ No newline at end of file

@@ -1,0 +1,29 @@
+{
+  "Accounts": [
+    {
+      "username": "user1",
+      "password": "password1",
+      "wallet": 100,
+      "wins": 10,
+      "draws": 3,
+      "losses": 9
+    },
+    {
+      "username": "user2",
+      "password": "password2",
+      "wallet": 50,
+      "wins": 11,
+      "draws": 5,
+      "losses": 19
+    },
+    {
+      "username": "user3",
+      "password": "password3",
+      "wallet": 300,
+      "wins": 1,
+      "draws": 10,
+      "losses": 20
+    }
+  ],
+  "name": "Casino"
+}
